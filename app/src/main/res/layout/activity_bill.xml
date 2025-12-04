@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bill"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_mode3"
+    tools:context=".BillActivity">
+
+    <LinearLayout
+        android:id="@+id/llBill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingVertical="5dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/mbBill"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:backgroundTint="@color/light_mode2"
+            android:layout_margin="12dp"
+            android:layout_gravity="center"
+            android:text="."
+            app:cornerRadius="40dp"
+            app:icon="@drawable/logo"
+            app:iconSize="125dp"
+            app:iconPadding="0dp"
+            app:iconGravity="textStart"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvBill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:backgroundTint="@color/light_mode"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingBottom="20dp"> <TextView
+                android:id="@+id/tvRestaurant1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Warung Nusantara"
+                android:textSize="25sp"
+                android:textColor="@color/light_mode2"
+                android:fontFamily="@font/poppins_bold"
+                android:layout_marginTop="20dp"/>
+
+                <TextView
+                    android:id="@+id/tvCashier"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Oleh : Kasir"
+                    android:textSize="20sp"
+                    android:textColor="@color/light_mode2"
+                    android:fontFamily="@font/poppins_medium"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:id="@+id/tvLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="---------------------------------------------------"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:layout_marginHorizontal="20dp"
+                    android:textColor="@color/light_mode3"
+                    android:fontFamily="@font/poppins_regular"
+                    android:layout_marginBottom="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Tanggal:"
+                                android:textSize="18sp"
+                                android:textColor="@color/light_mode6"
+                                android:fontFamily="@font/poppins_regular"/>
+                            <TextView
+                                android:id="@+id/tvDate"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:hint="--/--/----"
+                                android:textSize="20sp"
+                                android:textColorHint="@color/light_mode2"
+                                android:fontFamily="@font/poppins_regular"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Jam:"
+                                android:textSize="18sp"
+                                android:textColor="@color/light_mode6"
+                                android:fontFamily="@font/poppins_regular"/>
+                            <TextView
+                                android:id="@+id/tvTime"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:hint="--:--:--"
+                                android:textSize="20sp"
+                                android:textColorHint="@color/light_mode2"
+                                android:fontFamily="@font/poppins_regular"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/light_mode3"
+                        android:layout_marginBottom="10dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Nama Pelanggan:"
+                                android:textSize="18sp"
+                                android:textColor="@color/light_mode6"
+                                android:fontFamily="@font/poppins_regular"/>
+                            <TextView
+                                android:id="@+id/tvCustomer"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:hint="Nama"
+                                android:textSize="20sp"
+                                android:textColorHint="@color/light_mode2"
+                                android:fontFamily="@font/poppins_regular"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Nomor Meja:"
+                                android:textSize="18sp"
+                                android:textColor="@color/light_mode6"
+                                android:fontFamily="@font/poppins_regular"/>
+                            <TextView
+                                android:id="@+id/tvTableNumber"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:hint="Nomor Meja"
+                                android:textSize="20sp"
+                                android:textColorHint="@color/light_mode2"
+                                android:fontFamily="@font/poppins_regular"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/light_mode3"
+                        android:layout_marginBottom="10dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="10dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pesanan:"
+                            android:textSize="18sp"
+                            android:textColor="@color/light_mode6"
+                            android:fontFamily="@font/poppins_regular"/>
+                        <TextView
+                            android:id="@+id/tvOrder"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="Pesanan"
+                            android:textSize="20sp"
+                            android:textColorHint="@color/light_mode2"
+                            android:fontFamily="@font/poppins_regular"
+                            android:layout_marginBottom="10dp"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/light_mode3"
+                        android:layout_marginBottom="10dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="10dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Total Harga:"
+                            android:textSize="18sp"
+                            android:textColor="@color/light_mode6"
+                            android:fontFamily="@font/poppins_regular"/>
+                        <TextView
+                            android:id="@+id/tvBill"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="Total Harga"
+                            android:textSize="20sp"
+                            android:textColorHint="@color/light_mode2"
+                            android:fontFamily="@font/poppins_regular"
+                            android:layout_marginBottom="10dp"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/temperatureconversion"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_mode3"
+    tools:context=".TemperatureConversionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingVertical="5dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTemperatureConversion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="12dp"
+            android:backgroundTint="@color/light_mode">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <!-- Judul -->
+                <TextView
+                    android:id="@+id/tvTemperatureConvertion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Konversi Suhu"
+                    android:textSize="25sp"
+                    android:textColor="@color/light_mode2"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center"
+                    android:layout_marginBottom="20dp" />
+
+                <!-- Input & Output -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal">
+
+                    <EditText
+                        android:id="@+id/etTemperature"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Masukkan angka suhu"
+                        android:textSize="18sp"
+                        android:textColorHint="@color/light_mode4"
+                        android:fontFamily="@font/poppins_regular"
+                        android:inputType="number"
+                        android:layout_marginBottom="20dp" />
+
+                    <TextView
+                        android:id="@+id/tvTemperature2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Hasil"
+                        android:textSize="18sp"
+                        android:textColorHint="@color/light_mode4"
+                        android:fontFamily="@font/poppins_regular"
+                        android:layout_marginTop="10dp" />
+
+                    <TextView
+                        android:id="@+id/tvTemperatureResult"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="0"
+                        android:textSize="18sp"
+                        android:textColorHint="@color/light_mode4"
+                        android:fontFamily="@font/poppins_regular"
+                        android:layout_marginTop="10dp" />
+
+                </LinearLayout>
+
+                <!-- Spinner -->
+                <Spinner
+                    android:id="@+id/spTemperature"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:background="@drawable/spinner_background"
+                    android:paddingHorizontal="16dp"
+                    android:layout_marginTop="40dp"
+                    android:spinnerMode="dropdown" />
+
+                <!-- Tombol -->
+                <Button
+                    android:id="@+id/btChange"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="KONVERSIKAN"
+                    android:textColor="@color/light_mode2"
+                    android:fontFamily="@font/poppins_medium"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@color/light_mode1" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
