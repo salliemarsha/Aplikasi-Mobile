@@ -1,8 +1,0 @@
-<resources>
-    <!-- Bill Activity Strings -->
-    <string name="customer_label">Nama: %s</string>
-    <string name="table_label">Meja: %s</string>
-    <string name="total_label">Total: %s</string>
-
-    <!-- Other strings for your app -->
-</resources>
