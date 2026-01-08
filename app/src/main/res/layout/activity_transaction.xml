@@ -48,7 +48,7 @@
               android:id="@+id/tvRestaurant"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:text="Warung Nusantara"
+              android:text="@string/warung"
               android:textSize="22sp"
               android:textColor="@color/light_mode2"
               android:fontFamily="@font/poppins_bold"/>
@@ -59,7 +59,7 @@
             android:id="@+id/tvCustomerName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nama Pelanggan"
+            android:text="@string/nama_pelanggan"
             android:textSize="18sp"
             android:layout_marginTop="24dp"
             android:textColor="@color/light_mode2"
@@ -69,11 +69,12 @@
             android:id="@+id/etCustomer"
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:hint="Masukkan Nama"
+            android:hint="@string/masukkannama"
             android:padding="10dp"
             android:textSize="16sp"
+            android:textColorHint="@color/light_mode6"
             android:fontFamily="@font/poppins_regular"
-            android:backgroundTint="@color/light_mode2"
+            android:backgroundTint="@color/light_mode6"
             android:inputType="textPersonName"/>
 
         <!-- Nomor Meja -->
@@ -81,7 +82,7 @@
             android:id="@+id/tvTable"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nomor Meja"
+            android:text="@string/nomor_meja"
             android:textSize="18sp"
             android:layout_marginTop="16dp"
             android:textColor="@color/light_mode2"
@@ -91,9 +92,10 @@
             android:id="@+id/etTable"
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:hint="Masukkan Nomor Meja"
+            android:hint="@string/masukkannomormeja"
+            android:textColorHint="@color/light_mode6"
             android:padding="10dp"
-            android:backgroundTint="@color/light_mode2"
+            android:backgroundTint="@color/light_mode6"
             android:textSize="16sp"
             android:fontFamily="@font/poppins_regular"
             android:inputType="number"/>
@@ -103,7 +105,7 @@
             android:id="@+id/tvFood"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Makanan"
+            android:text="@string/makanan"
             android:textSize="20sp"
             android:textColor="@color/light_mode2"
             android:fontFamily="@font/poppins_medium"
@@ -121,7 +123,7 @@
               android:layout_width="0dp"
               android:layout_height="wrap_content"
               android:layout_weight="2"
-              android:text="Soto"
+              android:text="@string/soto"
               android:textSize="18sp"
               android:textColor="@color/light_mode2"
               android:fontFamily="@font/poppins_regular"/>
@@ -131,13 +133,14 @@
               android:layout_width="0dp"
               android:layout_height="48dp"
               android:layout_weight="1"
-              android:hint="0"
+              android:hint="@string/zero"
+              android:textColorHint="@color/light_mode6"
               android:gravity="center"
               android:inputType="number"
-              android:backgroundTint="@color/light_mode2"/>
+              android:backgroundTint="@color/light_mode6"/>
 
           <TextView
-              android:text="Rp8.000"
+              android:text="@string/hargasoto"
               android:layout_width="0dp"
               android:layout_height="wrap_content"
               android:layout_weight="1"
@@ -158,7 +161,7 @@
               android:layout_width="0dp"
               android:layout_height="wrap_content"
               android:layout_weight="2"
-              android:text="Timlo"
+              android:text="@string/timlo"
               android:textSize="18sp"
               android:textColor="@color/light_mode2"
               android:fontFamily="@font/poppins_regular"/>
@@ -168,13 +171,14 @@
               android:layout_width="0dp"
               android:layout_height="48dp"
               android:layout_weight="1"
-              android:hint="0"
+              android:hint="@string/zero"
+              android:textColorHint="@color/light_mode6"
               android:gravity="center"
               android:inputType="number"
-              android:backgroundTint="@color/light_mode2"/>
+              android:backgroundTint="@color/light_mode6"/>
 
           <TextView
-              android:text="Rp10.000"
+              android:text="@string/hargatimlo"
               android:layout_width="0dp"
               android:layout_height="wrap_content"
               android:layout_weight="1"
@@ -189,7 +193,7 @@
             android:id="@+id/tvDrink"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Minuman"
+            android:text="@string/minuman"
             android:textSize="20sp"
             android:textColor="@color/light_mode2"
             android:fontFamily="@font/poppins_medium"
@@ -207,7 +211,7 @@
               android:layout_width="0dp"
               android:layout_height="wrap_content"
               android:layout_weight="2"
-              android:text="Teh Hangat"
+              android:text="@string/teh"
               android:textSize="18sp"
               android:textColor="@color/light_mode2"
               android:fontFamily="@font/poppins_regular"/>
@@ -217,13 +221,14 @@
               android:layout_width="0dp"
               android:layout_height="48dp"
               android:layout_weight="1"
-              android:hint="0"
+              android:hint="@string/zero"
+              android:textColorHint="@color/light_mode6"
               android:gravity="center"
               android:inputType="number"
-              android:backgroundTint="@color/light_mode2"/>
+              android:backgroundTint="@color/light_mode6"/>
 
           <TextView
-              android:text="Rp2.500"
+              android:text="@string/hargateh"
               android:layout_width="0dp"
               android:layout_height="wrap_content"
               android:layout_weight="1"
@@ -244,7 +249,7 @@
               android:layout_width="0dp"
               android:layout_height="wrap_content"
               android:layout_weight="2"
-              android:text="Jeruk Hangat"
+              android:text="@string/jeruk"
               android:textSize="18sp"
               android:textColor="@color/light_mode2"
               android:fontFamily="@font/poppins_regular"/>
@@ -254,13 +259,14 @@
               android:layout_width="0dp"
               android:layout_height="48dp"
               android:layout_weight="1"
-              android:hint="0"
+              android:hint="@string/zero"
+              android:textColorHint="@color/light_mode6"
               android:gravity="center"
               android:inputType="number"
-              android:backgroundTint="@color/light_mode2"/>
+              android:backgroundTint="@color/light_mode6"/>
 
           <TextView
-              android:text="Rp3.000"
+              android:text="@string/hargajeruk"
               android:layout_width="0dp"
               android:layout_height="wrap_content"
               android:layout_weight="1"
@@ -281,7 +287,7 @@
               android:layout_width="0dp"
               android:layout_height="wrap_content"
               android:layout_weight="2"
-              android:text="Es Teh"
+              android:text="@string/esteh"
               android:textSize="18sp"
               android:textColor="@color/light_mode2"
               android:fontFamily="@font/poppins_regular"/>
@@ -291,13 +297,14 @@
               android:layout_width="0dp"
               android:layout_height="48dp"
               android:layout_weight="1"
-              android:hint="0"
+              android:hint="@string/zero"
+              android:textColorHint="@color/light_mode6"
               android:gravity="center"
               android:inputType="number"
-              android:backgroundTint="@color/light_mode2"/>
+              android:backgroundTint="@color/light_mode6"/>
 
           <TextView
-              android:text="Rp4.000"
+              android:text="@string/hargaesteh"
               android:layout_width="0dp"
               android:layout_height="wrap_content"
               android:layout_weight="1"
@@ -318,7 +325,7 @@
               android:layout_width="0dp"
               android:layout_height="wrap_content"
               android:layout_weight="2"
-              android:text="Es Jeruk"
+              android:text="@string/esjeruk"
               android:textSize="18sp"
               android:textColor="@color/light_mode2"
               android:fontFamily="@font/poppins_regular"/>
@@ -328,13 +335,14 @@
               android:layout_width="0dp"
               android:layout_height="48dp"
               android:layout_weight="1"
-              android:hint="0"
+              android:hint="@string/zero"
+              android:textColorHint="@color/light_mode6"
               android:gravity="center"
               android:inputType="number"
-              android:backgroundTint="@color/light_mode2"/>
+              android:backgroundTint="@color/light_mode6"/>
 
           <TextView
-              android:text="Rp3.000"
+              android:text="@string/hargaesjeruk"
               android:layout_width="0dp"
               android:layout_height="wrap_content"
               android:layout_weight="1"
@@ -351,7 +359,7 @@
             android:id="@+id/btCalculate"
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:text="HITUNG"
+            android:text="@string/hitung"
             android:textSize="16sp"
             android:layout_marginTop="24dp"
             android:backgroundTint="@color/light_mode1"

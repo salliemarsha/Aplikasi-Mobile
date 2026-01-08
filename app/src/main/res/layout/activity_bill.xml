@@ -19,10 +19,10 @@
             android:id="@+id/mbBill"
             android:layout_width="72dp"
             android:layout_height="72dp"
-            android:backgroundTint="@color/light_mode2"
+            android:backgroundTint="@color/light_mode4"
             android:layout_margin="12dp"
             android:layout_gravity="center"
-            android:text="."
+            android:text="@string/titik"
             app:cornerRadius="40dp"
             app:icon="@drawable/logo"
             app:iconSize="125dp"
@@ -48,7 +48,7 @@
                 android:id="@+id/tvRestaurant1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Warung Nusantara"
+                android:text="@string/warung"
                 android:textSize="25sp"
                 android:textColor="@color/light_mode2"
                 android:fontFamily="@font/poppins_bold"
@@ -58,7 +58,7 @@
                     android:id="@+id/tvCashier"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Oleh : Kasir"
+                    android:text="@string/by"
                     android:textSize="20sp"
                     android:textColor="@color/light_mode2"
                     android:fontFamily="@font/poppins_medium"
@@ -68,11 +68,11 @@
                     android:id="@+id/tvLine"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="---------------------------------------------------"
+                    android:text="@string/strip"
                     android:textSize="18sp"
                     android:gravity="center"
                     android:layout_marginHorizontal="20dp"
-                    android:textColor="@color/light_mode3"
+                    android:textColor="@color/light_mode6"
                     android:fontFamily="@font/poppins_regular"
                     android:layout_marginBottom="10dp"/>
 
@@ -96,7 +96,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Tanggal:"
+                                android:text="@string/tanggal"
                                 android:textSize="18sp"
                                 android:textColor="@color/light_mode6"
                                 android:fontFamily="@font/poppins_regular"/>
@@ -104,7 +104,7 @@
                                 android:id="@+id/tvDate"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:hint="--/--/----"
+                                android:hint="@string/datestrip"
                                 android:textSize="20sp"
                                 android:textColorHint="@color/light_mode2"
                                 android:fontFamily="@font/poppins_regular"/>
@@ -118,7 +118,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Jam:"
+                                android:text="@string/jam"
                                 android:textSize="18sp"
                                 android:textColor="@color/light_mode6"
                                 android:fontFamily="@font/poppins_regular"/>
@@ -126,7 +126,7 @@
                                 android:id="@+id/tvTime"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:hint="--:--:--"
+                                android:hint="@string/timestrip"
                                 android:textSize="20sp"
                                 android:textColorHint="@color/light_mode2"
                                 android:fontFamily="@font/poppins_regular"/>
@@ -136,7 +136,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
-                        android:background="@color/light_mode3"
+                        android:background="@color/light_mode6"
                         android:layout_marginBottom="10dp"/>
 
                     <LinearLayout
@@ -153,7 +153,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Nama Pelanggan:"
+                                android:text="@string/nama_pelanggan"
                                 android:textSize="18sp"
                                 android:textColor="@color/light_mode6"
                                 android:fontFamily="@font/poppins_regular"/>
@@ -161,7 +161,7 @@
                                 android:id="@+id/tvCustomer"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:hint="Nama"
+                                android:hint="@string/nama"
                                 android:textSize="20sp"
                                 android:textColorHint="@color/light_mode2"
                                 android:fontFamily="@font/poppins_regular"/>
@@ -175,7 +175,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Nomor Meja:"
+                                android:text="@string/nomor_meja"
                                 android:textSize="18sp"
                                 android:textColor="@color/light_mode6"
                                 android:fontFamily="@font/poppins_regular"/>
@@ -183,7 +183,7 @@
                                 android:id="@+id/tvTableNumber"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:hint="Nomor Meja"
+                                android:hint="@string/nomor_meja"
                                 android:textSize="20sp"
                                 android:textColorHint="@color/light_mode2"
                                 android:fontFamily="@font/poppins_regular"/>
@@ -193,7 +193,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
-                        android:background="@color/light_mode3"
+                        android:background="@color/light_mode6"
                         android:layout_marginBottom="10dp"/>
 
                     <LinearLayout
@@ -204,7 +204,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Pesanan:"
+                            android:text="@string/pesanan"
                             android:textSize="18sp"
                             android:textColor="@color/light_mode6"
                             android:fontFamily="@font/poppins_regular"/>
@@ -212,7 +212,7 @@
                             android:id="@+id/tvOrder"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:hint="Pesanan"
+                            android:hint="@string/pesanan"
                             android:textSize="20sp"
                             android:textColorHint="@color/light_mode2"
                             android:fontFamily="@font/poppins_regular"
@@ -222,7 +222,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
-                        android:background="@color/light_mode3"
+                        android:background="@color/light_mode6"
                         android:layout_marginBottom="10dp"/>
 
                     <LinearLayout
@@ -233,7 +233,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Total Harga:"
+                            android:text="@string/totalharga"
                             android:textSize="18sp"
                             android:textColor="@color/light_mode6"
                             android:fontFamily="@font/poppins_regular"/>
@@ -241,7 +241,7 @@
                             android:id="@+id/tvBill"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:hint="Total Harga"
+                            android:hint="@string/totalharga"
                             android:textSize="20sp"
                             android:textColorHint="@color/light_mode2"
                             android:fontFamily="@font/poppins_regular"

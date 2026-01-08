@@ -34,7 +34,7 @@
                     android:id="@+id/tvTemperatureConvertion"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Konversi Suhu"
+                    android:text="@string/konversi_suhu"
                     android:textSize="25sp"
                     android:textColor="@color/light_mode2"
                     android:fontFamily="@font/poppins_bold"
@@ -52,9 +52,9 @@
                         android:id="@+id/etTemperature"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="Masukkan angka suhu"
+                        android:hint="@string/angka"
                         android:textSize="18sp"
-                        android:textColorHint="@color/light_mode4"
+                        android:textColorHint="@color/light_mode6"
                         android:fontFamily="@font/poppins_regular"
                         android:inputType="number"
                         android:layout_marginBottom="20dp" />
@@ -63,9 +63,9 @@
                         android:id="@+id/tvTemperature2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="Hasil"
+                        android:hint="@string/hasil"
                         android:textSize="18sp"
-                        android:textColorHint="@color/light_mode4"
+                        android:textColorHint="@color/light_mode6"
                         android:fontFamily="@font/poppins_regular"
                         android:layout_marginTop="10dp" />
 
@@ -73,9 +73,9 @@
                         android:id="@+id/tvTemperatureResult"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="0"
+                        android:hint="@string/zero"
                         android:textSize="18sp"
-                        android:textColorHint="@color/light_mode4"
+                        android:textColorHint="@color/light_mode6"
                         android:fontFamily="@font/poppins_regular"
                         android:layout_marginTop="10dp" />
 
@@ -96,7 +96,7 @@
                     android:id="@+id/btChange"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="KONVERSIKAN"
+                    android:text="@string/konversikan"
                     android:textColor="@color/light_mode2"
                     android:fontFamily="@font/poppins_medium"
                     android:layout_marginTop="30dp"

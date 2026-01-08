@@ -35,7 +35,6 @@
                     android:layout_height="90dp"
                     android:src="@drawable/logo2"
                     app:tint="@color/light_mode2"
-                    android:contentDescription="Logo aplikasi"
                     android:layout_marginBottom="10dp"/>
 
                 <!-- TITLE CENTER -->
@@ -43,7 +42,7 @@
                     android:id="@+id/tvDashboard"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sallie's App"
+                    android:text="@string/app_name"
                     android:textSize="26sp"
                     android:textColor="@color/light_mode2"
                     android:fontFamily="@font/poppins_bold" />
@@ -105,7 +104,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Formulir"
+                                android:text="@string/formulir"
                                 android:textColor="@color/light_mode2"
                                 android:layout_marginTop="6dp"
                                 android:textSize="14sp"
@@ -141,7 +140,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Kalkulator"
+                                android:text="@string/kalkulator"
                                 android:textColor="@color/light_mode2"
                                 android:layout_marginTop="6dp"
                                 android:textSize="14sp"
@@ -177,7 +176,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Warung Makan"
+                                android:text="@string/warung_makan"
                                 android:textColor="@color/light_mode2"
                                 android:layout_marginTop="6dp"
                                 android:textSize="14sp"
@@ -221,7 +220,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Konversi Suhu"
+                                android:text="@string/konversi_suhu"
                                 android:textColor="@color/light_mode2"
                                 android:layout_marginTop="6dp"
                                 android:textSize="14sp"
@@ -255,7 +254,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Profil"
+                                android:text="@string/profil"
                                 android:textColor="@color/light_mode2"
                                 android:layout_marginTop="6dp"
                                 android:textSize="14sp"
@@ -289,7 +288,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Keluar"
+                                android:text="@string/keluar"
                                 android:textColor="@color/light_mode2"
                                 android:layout_marginTop="6dp"
                                 android:textSize="14sp"

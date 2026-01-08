@@ -39,15 +39,14 @@
                     android:layout_height="28dp"
                     android:layout_gravity="end"
                     android:src="@drawable/close"
-                    android:layout_marginBottom="10dp"
-                    android:contentDescription="close" />
+                    android:layout_marginBottom="10dp" />
 
                 <!-- TITLE -->
                 <TextView
                     android:id="@+id/tvExit"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Yakin ingin keluar?"
+                    android:text="@string/konfirmasi"
                     android:textSize="22sp"
                     android:fontFamily="@font/poppins_bold"
                     android:textColor="@color/light_mode2"
@@ -58,7 +57,7 @@
                     android:id="@+id/tvDescription"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Aplikasi akan ditutup dan kembali ke layar utama perangkat."
+                    android:text="@string/konfirmasi2"
                     android:textSize="15sp"
                     android:fontFamily="@font/poppins_regular"
                     android:textColor="@color/light_mode6"
@@ -72,7 +71,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     app:backgroundTint="@color/light_mode1"
-                    android:text="KELUAR"
+                    android:text="@string/keluar2"
                     android:textSize="16sp"
                     android:textColor="@color/light_mode2"
                     android:fontFamily="@font/poppins_medium" />
@@ -84,7 +83,7 @@
                     android:layout_height="48dp"
                     android:layout_marginTop="10dp"
                     app:backgroundTint="@color/light_mode3"
-                    android:text="BATAL"
+                    android:text="@string/batal"
                     android:textSize="16sp"
                     android:textColor="@color/light_mode2"
                     android:fontFamily="@font/poppins_regular" />

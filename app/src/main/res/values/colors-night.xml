@@ -6,5 +6,6 @@
     <color name="light_mode3">#1F242B</color>
     <color name="light_mode4">#1A1A1A</color>
     <color name="light_mode5">#202020</color>
-    <color name="light_mode6">#242424</color>
+    <color name="light_mode6">#8A8A8A</color>
+    <color name="light_mode7">#F5F8F9</color>
 </resources>

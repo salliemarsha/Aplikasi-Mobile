@@ -33,10 +33,11 @@
                     android:id="@+id/tvProfile"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Profil"
+                    android:text="@string/profil"
                     android:textSize="26sp"
                     android:fontFamily="@font/poppins_bold"
-                    android:textColor="@color/light_mode2" />
+                    android:textColor="@color/light_mode2"
+                    android:layout_marginTop="12dp"/>
 
                 <!-- Foto Profil -->
                 <androidx.cardview.widget.CardView
@@ -62,7 +63,7 @@
                     android:id="@+id/tvName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sallie Marsha Tristanti"
+                    android:text="@string/sallie"
                     android:layout_marginTop="16dp"
                     android:textSize="20sp"
                     android:fontFamily="@font/poppins_bold"
@@ -92,7 +93,7 @@
                     android:id="@+id/tvInformation"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Informasi Pribadi"
+                    android:text="@string/pribadi"
                     android:textSize="18sp"
                     android:textColor="@color/light_mode2"
                     android:fontFamily="@font/poppins_medium"
@@ -130,16 +131,16 @@
                                 android:id="@+id/tvBirthDate"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Tanggal Lahir"
+                                android:text="@string/lahir"
                                 android:textSize="18sp"
-                                android:textColor="@color/light_mode4"
+                                android:textColor="@color/light_mode6"
                                 android:fontFamily="@font/poppins_medium" />
 
                             <TextView
                                 android:id="@+id/tvBirthDate2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="29 Oktober 2008"
+                                android:text="@string/lahir2"
                                 android:textSize="18sp"
                                 android:textColor="@color/light_mode2"
                                 android:fontFamily="@font/poppins_regular" />
@@ -170,16 +171,16 @@
                                 android:id="@+id/tvAddress"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Alamat Rumah"
+                                android:text="@string/rumah"
                                 android:textSize="18sp"
-                                android:textColor="@color/light_mode4"
+                                android:textColor="@color/light_mode6"
                                 android:fontFamily="@font/poppins_medium" />
 
                             <TextView
                                 android:id="@+id/tvAddress2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Tawangrejo Sobokerto Ngemplak Boyolali"
+                                android:text="@string/tawang"
                                 android:textSize="18sp"
                                 android:textColor="@color/light_mode2"
                                 android:fontFamily="@font/poppins_regular" />
@@ -210,16 +211,16 @@
                                 android:id="@+id/tvSchool"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Asal Sekolah"
+                                android:text="@string/sekolah"
                                 android:textSize="18sp"
-                                android:textColor="@color/light_mode4"
+                                android:textColor="@color/light_mode6"
                                 android:fontFamily="@font/poppins_medium" />
 
                             <TextView
                                 android:id="@+id/tvSchool2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="SMKN 6 Surakarta"
+                                android:text="@string/smk"
                                 android:textSize="18sp"
                                 android:textColor="@color/light_mode2"
                                 android:fontFamily="@font/poppins_regular" />
@@ -232,7 +233,7 @@
                     android:id="@+id/tvInformation2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Informasi Kontak"
+                    android:text="@string/kontak"
                     android:textSize="18sp"
                     android:textColor="@color/light_mode2"
                     android:fontFamily="@font/poppins_medium"
@@ -262,7 +263,7 @@
                             android:id="@+id/tvGmail"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="salliemarsha49@gmail.com"
+                            android:text="@string/gmail"
                             android:layout_marginStart="20dp"
                             android:textSize="18sp"
                             android:textColor="@color/light_mode2"
@@ -285,7 +286,7 @@
                             android:id="@+id/tvWhatsApp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="+62-882-0063-82565"
+                            android:text="@string/whatsapp"
                             android:layout_marginStart="20dp"
                             android:textSize="18sp"
                             android:textColor="@color/light_mode2"
@@ -308,7 +309,7 @@
                             android:id="@+id/tvInstagram"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="sll1mrsha_"
+                            android:text="@string/instagram"
                             android:layout_marginStart="20dp"
                             android:textSize="18sp"
                             android:textColor="@color/light_mode2"

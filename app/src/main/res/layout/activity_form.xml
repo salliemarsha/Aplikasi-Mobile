@@ -38,7 +38,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:text="Form Pendaftaran"
+                    android:text="@string/form_pendaftaran"
                     android:textSize="25sp"
                     android:textColor="@color/light_mode2"
                     android:fontFamily="@font/poppins_bold"
@@ -49,9 +49,9 @@
                     android:id="@+id/etName"
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
-                    android:hint="Masukkan Nama"
+                    android:hint="@string/masukkan_nama"
                     android:paddingHorizontal="12dp"
-                    android:textColor="@color/light_mode2"
+                    android:textColor="@color/light_mode6"
                     android:inputType="textPersonName"
                     android:fontFamily="@font/poppins_regular"
                     android:layout_marginTop="12dp" />
@@ -61,9 +61,9 @@
                     android:id="@+id/etAddress"
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
-                    android:hint="Masukkan Alamat"
+                    android:hint="@string/masukkan_alamat"
                     android:paddingHorizontal="12dp"
-                    android:textColor="@color/light_mode2"
+                    android:textColor="@color/light_mode6"
                     android:fontFamily="@font/poppins_regular"
                     android:inputType="textPostalAddress"
                     android:layout_marginTop="12dp" />
@@ -73,9 +73,9 @@
                     android:id="@+id/etNumber"
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
-                    android:hint="Masukkan Nomor HP"
+                    android:hint="@string/masukkan_nomorhp"
                     android:paddingHorizontal="12dp"
-                    android:textColor="@color/light_mode2"
+                    android:textColor="@color/light_mode6"
                     android:fontFamily="@font/poppins_regular"
                     android:inputType="phone"
                     android:layout_marginTop="12dp" />
@@ -85,7 +85,7 @@
                     android:id="@+id/tvReligion"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Pilih Agama"
+                    android:text="@string/pilih_agama"
                     android:textSize="18sp"
                     android:textColor="@color/light_mode2"
                     android:fontFamily="@font/poppins_medium"
@@ -104,7 +104,7 @@
                     android:id="@+id/tvGender"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Pilih Jenis Kelamin"
+                    android:text="@string/pilih_gender"
                     android:textSize="18sp"
                     android:textColor="@color/light_mode2"
                     android:fontFamily="@font/poppins_medium"
@@ -121,7 +121,7 @@
                         android:id="@+id/rbMan"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Laki-Laki"
+                        android:text="@string/laki_laki"
                         android:textColor="@color/light_mode2"
                         android:fontFamily="@font/poppins_regular" />
 
@@ -129,7 +129,7 @@
                         android:id="@+id/rbWoman"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Perempuan"
+                        android:text="@string/perempuan"
                         android:textColor="@color/light_mode2"
                         android:fontFamily="@font/poppins_regular"
                         android:layout_marginStart="25dp" />
@@ -140,7 +140,7 @@
                     android:id="@+id/tvHobbies"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Pilih Hobi"
+                    android:text="@string/pilih_hobi"
                     android:textSize="18sp"
                     android:textColor="@color/light_mode2"
                     android:fontFamily="@font/poppins_medium"
@@ -150,7 +150,7 @@
                     android:id="@+id/cbDance"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Menari"
+                    android:text="@string/menari"
                     android:textColor="@color/light_mode2"
                     android:fontFamily="@font/poppins_regular"
                     android:layout_marginTop="10dp" />
@@ -159,7 +159,7 @@
                     android:id="@+id/cbSing"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Menyanyi"
+                    android:text="@string/menyanyi"
                     android:textColor="@color/light_mode2"
                     android:fontFamily="@font/poppins_regular" />
 
@@ -167,7 +167,7 @@
                     android:id="@+id/cbRead"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Membaca"
+                    android:text="@string/membaca"
                     android:textColor="@color/light_mode2"
                     android:fontFamily="@font/poppins_regular" />
 
@@ -175,7 +175,7 @@
                     android:id="@+id/cbCook"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Memasak"
+                    android:text="@string/memasak"
                     android:textColor="@color/light_mode2"
                     android:fontFamily="@font/poppins_regular" />
 
@@ -184,7 +184,7 @@
                     android:id="@+id/btRegister"
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
-                    android:text="DAFTAR"
+                    android:text="@string/daftar"
                     android:textSize="15sp"
                     android:textColor="@color/light_mode2"
                     android:fontFamily="@font/poppins_medium"
