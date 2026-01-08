@@ -19,7 +19,7 @@
             android:id="@+id/mbBill"
             android:layout_width="72dp"
             android:layout_height="72dp"
-            android:backgroundTint="@color/light_mode4"
+            android:backgroundTint="@color/light_mode2"
             android:layout_margin="12dp"
             android:layout_gravity="center"
             android:text="@string/titik"

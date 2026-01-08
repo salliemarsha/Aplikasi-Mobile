@@ -218,6 +218,7 @@
                                 android:text="@string/konversi_suhu"
                                 android:textColor="@color/light_mode2"
                                 android:layout_marginTop="6dp"
+                                android:layout_marginStart="20dp"
                                 android:textSize="14sp"
                                 android:fontFamily="@font/poppins_regular"/>
                         </LinearLayout>

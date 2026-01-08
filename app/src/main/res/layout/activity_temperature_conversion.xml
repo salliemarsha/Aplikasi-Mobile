@@ -97,7 +97,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/konversikan"
-                    android:textColor="@color/light_mode2"
+                    android:textColor="@color/light_mode7"
                     android:fontFamily="@font/poppins_medium"
                     android:layout_marginTop="30dp"
                     android:backgroundTint="@color/light_mode1" />

@@ -73,7 +73,7 @@
                     app:backgroundTint="@color/light_mode1"
                     android:text="@string/keluar2"
                     android:textSize="16sp"
-                    android:textColor="@color/light_mode2"
+                    android:textColor="@color/light_mode7"
                     android:fontFamily="@font/poppins_medium" />
 
                 <!-- BUTTON BATAL -->

@@ -77,8 +77,8 @@
     <string name="gmail">salliemarsha49@gmail.com</string>
     <string name="whatsapp">+62 882 0063 82565</string>
     <string name="instagram">sll1mrsha_</string>
-    <string name="konfirmasi">Yakin ingin keluar?</string>
-    <string name="konfirmasi2">Aplikasi akan ditutup dan kembali ke layar utama perangkat.</string>
-    <string name="keluar2">KELUAR</string>
-    <string name="batal">BATAL</string>
+    <string name="konfirmasi">Are you sure you want to exit?</string>
+    <string name="konfirmasi2">The app will close and return to the device’s home screen.</string>
+    <string name="keluar2">EXIT</string>
+    <string name="batal">CANCEL</string>
 </resources>

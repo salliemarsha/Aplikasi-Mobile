@@ -186,7 +186,7 @@
                     android:layout_height="55dp"
                     android:text="@string/daftar"
                     android:textSize="15sp"
-                    android:textColor="@color/light_mode2"
+                    android:textColor="@color/light_mode7"
                     android:fontFamily="@font/poppins_medium"
                     android:backgroundTint="@color/light_mode1"
                     android:layout_marginTop="25dp" />
